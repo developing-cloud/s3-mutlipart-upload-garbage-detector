@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 
 import boto3
 
-# s3 = boto3.session.Session(profile_name='mp').client('s3')
+# s3 = boto3.session.Session(profile_name='xyz').client('s3')
 s3 = boto3.client('s3')
 """ :type : pyboto3.s3 """
 
